@@ -21,4 +21,8 @@ public class IntellijGitHub {
         System.out.println("hello2");
         return "hello2";
     }
+    public String hello3() {
+        System.out.println("hello3");
+        return "hello3";
+    }
 }
