@@ -9,6 +9,7 @@ public class IntellijGitHub {
     @GetMapping("/test")
     public String test() {
         hello();
+
         System.out.println("This example is to test GitHub integration with IntelliJ IDEA.");
         return "GitHub integration with IntelliJ IDEA is working!";
     }
