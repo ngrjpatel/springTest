@@ -13,6 +13,12 @@ public class IntellijGitHub {
         return "GitHub integration with IntelliJ IDEA is working!";
     }
     public String hello() {
+        System.out.println("hello");
+        System.out.println( "hello2");
         return "hello";
+    }
+    public String hello2() {
+        System.out.println("hello2");
+        return "hello2";
     }
 }
